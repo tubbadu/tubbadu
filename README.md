@@ -107,6 +107,8 @@
   * copyq-toggle
   
   * speChar
+  
+  * panelToggle
 
 * #### pip
   
