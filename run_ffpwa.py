@@ -29,11 +29,11 @@ def main():
 		time.sleep(0.1)
 		after = getIDs()
 		diff = list(set(after) - set(before))
-		if len(diff) > 3: # don't know why but it works
+		if len(diff) > 2: # don't know why but it works
 			break
 	print(diff)
 	for id in diff:
-		bash(f"xdotool windowmove {id} {x} {y}")
+		bash(f"xdotool windowmove {id} {x} {y} && xdotool windowactivate {id}")
 
 
 if __name__ == '__main__':
