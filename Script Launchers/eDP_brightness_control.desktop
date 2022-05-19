@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry] 
+Version=1.0 
+Exec=/home/tubbadu/Documenti/script/brightness_control_eDP.sh
+Name=Brightness Control
+GenericName=Brightness Control
+Comment=Launches Brightness Control
+Encoding=UTF-8 
+Terminal=true 
+Type=Application 
+# Categories=Application;Development;
+# Icon=/someicon.png

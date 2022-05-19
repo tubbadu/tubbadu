@@ -1,0 +1,49 @@
+#!/usr/bin/bash
+
+while :
+alarmHour=$(sed 's/\./':'/g' <<<"$1")
+nowHour=$(date +"%H:%M:%S")
+difference=$(( $(date -d "$alarmHour" "+%s") - $(date -d "$nowHour" "+%s") ))
+echo "Sleeping $difference seconds"
+sleep $difference
+
+avviso=$2
+		if [ -z "$2" ]
+		then
+			avviso="Beep Beep!"
+			echo "No argument supplied: notifying \"Beep Beep!\""
+		fi
+		spd-say 'beep beep'
+		answer=$(dunstify -A "turned off","Turn off" "$avviso" -t 0)
+		break
+		
+		#while :
+		#do
+		#	spd-say 'beep beep'
+		#	echo "beep beep"
+		#	echo $answer
+		#	sleep 3
+		#done
+
+exit
+
+
+do
+	echo "hour=$nowHour"
+	if [[ $nowHour == $alarmHour ]];
+	then
+		avviso=$2
+		if [ -z "$2" ]
+		then
+			avviso="Beep Beep!"
+			echo "No argument supplied: notifying \"Beep Beep!\""
+		fi
+		notify-send "$avviso" -t 0
+		while :
+		do
+			spd-say 'beep beep'
+			sleep 3
+		done
+	fi
+	sleep 30
+done

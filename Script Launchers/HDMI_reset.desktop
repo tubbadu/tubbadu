@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry] 
+Version=1.0 
+Exec=/home/tubbadu/Documenti/script/HDMI_switch.sh
+Name=AppName
+GenericName=AppName
+Comment=Launch AppName
+Encoding=UTF-8 
+Terminal=true 
+Type=Application 
+# Categories=Application;Development;
+# Icon=/someicon.png
