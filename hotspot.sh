@@ -1,6 +1,6 @@
 #!/usr/bin/bash 
 
-hsp="/home/tubbadu/code/utility_script/hotspot.sh" #applets weren't able to use .bin scripts.. dunno why but anyway :)
+hsp="/home/tubbadu/code/GitHub/tubbadu/hotspot.sh" #applets weren't able to use .bin scripts.. dunno why but anyway :)
 
 if [ -z "$1" ]; then
 	echo "usage:"
