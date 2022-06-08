@@ -250,7 +250,7 @@ xkb_symbols "ibm" {
 
     key <AC10>	{ [ograve,          ccedilla,       at                                  ] };
     key <AC11>	{ [agrave,          degree,         numbersign                          ] };
-    key <BKSL>	{ [ugrave,          section,        grave                               ] };
+    key <BKSL>	{ [ugrave,          section,        asciitilde                          ] };
 
     key <LSGT>	{ [less,            greater                                             ] };
     key <AB08>	{ [comma,           semicolon,      semicolon                           ] };
@@ -259,6 +259,7 @@ xkb_symbols "ibm" {
 
     key <CAPS> { [End,              End,            Home                                ] };
     key <NMLK> { [Caps_Lock                                                             ] };
+    key <KPDL> { [KP_Decimal,       KP_Decimal                                          ] };
     
 };
 

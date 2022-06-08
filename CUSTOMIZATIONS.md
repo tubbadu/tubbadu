@@ -58,6 +58,10 @@
   
   * python3-pip
   
+  * npm
+
+  * nodejs
+  
 * #### portable softwares (devo mettere il file.desktop nella cartella e in `~/.local/share/applications` mettere il symlink)
   
   * balena etcher
@@ -77,6 +81,8 @@
   * settings Meta+I
   
   * VS Code Meta+V
+
+  * Do not disturb Meta+S
   
   * yakuake F12 / esc
   
