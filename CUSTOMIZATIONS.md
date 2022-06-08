@@ -6,7 +6,7 @@
   
   * yakuake
   
-  * vscode
+  * vscodium
   
   * megasync
   
@@ -20,7 +20,7 @@
   
   * inkscape
   
-  * chromium
+  * ~~chromium~~
   
   * kmail
   
@@ -33,16 +33,16 @@
     * whatsapp web
   
   * vlc
-  
-  * simple screen recorder
-  
+    
   * kamoso
   
   * geogebra
-  
-  * wifi hotspot
-  
+    
   * xournalpp
+
+  * qbittorrent
+
+  * uget
   
   * copyq
   
@@ -58,8 +58,6 @@
   
   * python3-pip
   
-  * tkinter
-
 * #### portable softwares (devo mettere il file.desktop nella cartella e in `~/.local/share/applications` mettere il symlink)
   
   * balena etcher
@@ -108,7 +106,7 @@
   
   * speChar
   
-  * panelToggle
+  * panelToggle (*gone*)
 
 * #### pip
   
