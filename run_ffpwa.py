@@ -32,6 +32,7 @@ def main():
 		if len(diff) > 2: # don't know why but it works
 			break
 	print(diff)
+	time.sleep(0.01)
 	for id in diff:
 		bash(f"xdotool windowmove {id} {x} {y} && xdotool windowactivate {id}")
 
