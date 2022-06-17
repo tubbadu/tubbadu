@@ -1,0 +1,3 @@
+ 
+TRIANGLE=$'\ue0b0'
+PROMPT="%K{#AF0000} %n@%M%F{#AF0000}%K{white}$TRIANGLE%F{#AF0000} %~%f%k$TRIANGLE "
