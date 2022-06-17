@@ -53,6 +53,8 @@
   * ffmpeg
   
   * maim
+
+  * xclip
   
   * xdotool
   
