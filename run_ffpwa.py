@@ -25,8 +25,9 @@ def main():
 	x, y = sys.argv[2], sys.argv[3]
 	before = getIDs()
 	bash(cmd)
+	#bash("dunstify 'run pwa'")
 	for i in range(30):
-		time.sleep(0.1)
+		time.sleep(0.5)
 		after = getIDs()
 		diff = list(set(after) - set(before))
 		if len(diff) > 2: # don't know why but it works

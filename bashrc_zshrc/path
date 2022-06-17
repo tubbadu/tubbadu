@@ -1,0 +1,18 @@
+# add ~/.bin and ~/.local/bin to the path
+export PATH="$PATH:/home/tubbadu/.bin/:/home/tubbadu/.local/bin"
+
+
+##### REQUIRED FOR CORDOVA #####
+#export ANDROID_SDK_ROOT="/home/tubbadu/.Android/Sdk"
+#export ANDROID_HOME="/home/tubbadu/.Android/Sdk"
+
+export ANDROID_SDK_ROOT="/home/tubbadu/.android-utility/Sdk/"
+export ANDROID_HOME="/home/tubbadu/.android-utility/Sdk/"
+export ANT_HOME="/home/tubbadu/code/android-development/ant/apache-ant-1.10.12"
+
+export PATH="$PATH:$ANDROID_SDK_ROOT/tools/bin"
+export PATH="$PATH:$ANDROID_SDK_ROOT/platform-tools"
+export PATH="$PATH:$ANT_HOME/bin"
+export PATH="$PATH:/home/tubbadu/.android-utility/gradle-7.4.2/bin/"
+export PATH="$PATH:/home/tubbadu/.android-utility/jdk1.8.0_202/bin/"
+##### END_CORDOVA #####
