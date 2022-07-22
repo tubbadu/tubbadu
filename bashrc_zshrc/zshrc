@@ -105,7 +105,9 @@ source ~/.aliases
 source ~/.path
 
 TRIANGLE=$'\ue0b0'
-PROMPT="%K{#1BA58A} %n@%M%F{#1BA58A}%K{white}$TRIANGLE%F{#1BA58A} %~%f%k$TRIANGLE " #%K{#1BA58A}%F{black}$TRIANGLE
+COLOR_1="#3DAEE9" #1BA58A
+COLOR_2="white"
+PROMPT="%K{$COLOR_1} %n@%M%F{$COLOR_1}%K{$COLOR_2}$TRIANGLE%F{$COLOR_1} %~%f%k$TRIANGLE " #%K{#1BA58A}%F{black}$TRIANGLE
 
 #force GTK apps to use Qt file picker
 export GTK_USE_PORTAL=1
