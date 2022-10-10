@@ -113,5 +113,5 @@ PROMPT="%K{$COLOR_1} %n@%M%F{$COLOR_1}%K{$COLOR_2}$TRIANGLE%F{$COLOR_1} %~%f%k$T
 export GTK_USE_PORTAL=1
 
 #allow kwin script debugging
-export QT_LOGGING_RULES='*.debug=true; js=true; kwin_scripting=true; kwin*=true'
+export QT_LOGGING_RULES='js=true; kwin_scripting=true; kwin*=true'
 
