@@ -1,4 +1,4 @@
-#dunstify "zshrc init"
+## em#dunstify "zshrc init" #what is this?
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -103,6 +103,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 source ~/.aliases
 source ~/.path
+#source ~/git/emsdk/emsdk_env.sh
 
 TRIANGLE=$'\ue0b0'
 COLOR_1="#3DAEE9" #1BA58A
