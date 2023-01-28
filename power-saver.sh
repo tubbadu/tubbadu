@@ -4,9 +4,9 @@ if [[ $1 == "scriptinator-status" ]]
 then
 	if [[ $currentProfile == "power-saver" ]]
 	then
-		echo '{PlasmoidIconStart}/home/tubbadu/Immagini/Wallpapers/power-saving-on.svg{PlasmoidIconEnd}'
+		echo '{PlasmoidIconStart}power-saving-on{PlasmoidIconEnd}'
 	else
-		echo '{PlasmoidIconStart}/home/tubbadu/Immagini/Wallpapers/power-saving-off.svg{PlasmoidIconEnd}'
+		echo '{PlasmoidIconStart}power-saving-off{PlasmoidIconEnd}'
 	fi
 	exit
 fi
