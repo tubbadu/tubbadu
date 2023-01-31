@@ -23,16 +23,16 @@ else
 	elif [[ $1 == 'scriptinator-toggle' ]]; then
 		if [[ $(nmcli -t -f NAME connection show --active) == *"tubbadu-hotspot-crypted"* ]]; then
 			$0 off #>/dev/null
-			echo 'turning off: {PlasmoidIconStart}hotspot-off{PlasmoidIconEnd}'
+			echo 'turning off: {PlasmoidIconStart}network-wireless-hotspot-off{PlasmoidIconEnd}'
 		else
 			$0 on #>/dev/null
-			echo 'turning on: {PlasmoidIconStart}hotspot-on{PlasmoidIconEnd}'
+			echo 'turning on: {PlasmoidIconStart}network-wireless-hotspot{PlasmoidIconEnd}'
 		fi
 	elif [[ $1 == "scriptinator-get-status" ]]; then
 		if [[ $(nmcli -t -f NAME connection show --active) == *"tubbadu-hotspot-crypted"* ]]; then
-			echo '{PlasmoidIconStart}hotspot-on{PlasmoidIconEnd}'
+			echo '{PlasmoidIconStart}network-wireless-hotspot{PlasmoidIconEnd}'
 		else
-			echo '{PlasmoidIconStart}hotspot-off{PlasmoidIconEnd}'
+			echo '{PlasmoidIconStart}network-wireless-hotspot-off{PlasmoidIconEnd}'
 		fi
 	elif [[ $1 == "status" ]]; then
 		if [[ $(nmcli -t -f NAME connection show --active) == *"tubbadu-hotspot-crypted"* ]]; then
