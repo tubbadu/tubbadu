@@ -1,0 +1,27 @@
+/* makes the urlbar slightly bigger*/
+#urlbar{
+	padding: 3px !important;
+}
+
+/* removes the puzzle's button text */
+#identity-icon-label{
+	display: none !important;
+}
+
+/* don't remember * /
+.urlbar-input-box{
+	margin: 3px !important;
+}*/
+
+/* draws a grey outline in the searchbox when unfocused */
+#urlbar:not(:focus-within) #urlbar-background {
+	outline: solid 1px #5f6265 !important;
+	margin: 2px !important;
+	border-radius: 2px !important;
+}
+
+/* draws a lightblue outline in the searchbox when focused */
+#urlbar:focus-within #urlbar-background,
+#urlbar:hover #urlbar-background {
+	outline: solid 1px var(--focus-outline-color) !important;
+}

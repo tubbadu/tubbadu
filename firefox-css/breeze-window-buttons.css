@@ -1,0 +1,83 @@
+/* move buttons to the right side */
+.titlebar-buttonbox-container {
+	-moz-box-ordinal-group: 10 !important;
+}
+
+/* swap the order of buttons pt. 1 */
+:root:not([sizemode="fullscreen"]) .titlebar-buttonbox,
+:root[sizemode="fullscreen"] #window-controls {
+	display: grid !important;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+/* swap the order of buttons pt. 2 */
+.titlebar-min, #minimize-button {
+	-moz-box-ordinal-group: 1 !important;
+}
+.titlebar-max {
+	-moz-box-ordinal-group: 2 !important;
+}
+.titlebar-close {
+	-moz-box-ordinal-group: 3 !important;
+	
+}
+
+/* move buttons to the top */
+.titlebar-buttonbox .titlebar-button {
+	border-radius: 15 !important;
+	height: 30px;
+	width: 30px;
+}
+
+/* Make window buttons squared so can be clicked anywhere */
+.titlebar-button {
+	border-radius: 0 !important;
+}	
+
+/* set button size */
+.titlebar-button > .toolbarbutton-icon {
+	width: 30px !important;
+	min-width: 30px !important;
+	min-height: 30px !important;
+	height: 30px !important;
+}
+
+/* removes automatic hover effect */
+.titlebar-max,
+.titlebar-restore,
+.titlebar-min,
+.titlebar-close {
+	background-color: transparent !important;
+}
+
+/* changes buttons icons */
+#TabsToolbar .titlebar-buttonbox-container .titlebar-close {
+	list-style-image: url(window/close.svg) !important;
+}
+#TabsToolbar .titlebar-buttonbox-container .titlebar-close:hover {
+	list-style-image: url(window/close-hover.svg) !important;
+}
+#TabsToolbar .titlebar-buttonbox-container .titlebar-min {
+	list-style-image: url(window/minimize.svg) !important;	
+}
+#TabsToolbar .titlebar-buttonbox-container .titlebar-min:hover {
+	list-style-image: url(window/minimize-hover.svg) !important;
+}
+#TabsToolbar .titlebar-buttonbox-container .titlebar-max{
+	list-style-image: url(window/maximize.svg) !important;
+}
+#TabsToolbar .titlebar-buttonbox-container .titlebar-restore {
+	list-style-image: url(window/restore.svg) !important;
+}
+#TabsToolbar .titlebar-buttonbox-container .titlebar-max:hover {
+	list-style-image: url(window/maximize-hover.svg) !important;
+}
+:root[sizemode="maximized"] #TabsToolbar .titlebar-buttonbox-container .titlebar-max:hover,
+#TabsToolbar .titlebar-buttonbox-container .titlebar-restore:hover {
+	list-style-image: url(window/restore-hover.svg) !important;
+}
+
+/* Reduce spacing between window buttons */
+.titlebar-button {
+	margin-left: -6px !important;
+}

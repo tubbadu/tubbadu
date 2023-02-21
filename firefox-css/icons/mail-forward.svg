@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 22 22"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="mail-forward.svg"
+   inkscape:export-filename="mail-forward.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="39.590909"
+     inkscape:cx="8.4110218"
+     inkscape:cy="10.987371"
+     inkscape:window-width="1880"
+     inkscape:window-height="1051"
+     inkscape:window-x="40"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <defs
+     id="defs3051">
+    <style
+       type="text/css"
+       id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#f2f2f2;
+      }
+      </style>
+  </defs>
+  <path
+     style="fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1.08873"
+     d="m 0,2.29016 v 1.0887299 8.7098401 6.532379 0.450802 0.637929 H 1.0887299 7.6211097 14.153489 V 18.621109 H 7.6211097 1.0887299 v -0.637928 l 0.5039629,-0.503962 6.8237002,-6.8237 1.5820608,1.579935 0.8867202,0.886719 h 0.0021 l 0.888846,-0.886719 1.582061,-1.579935 1.433212,1.433211 h 1.53953 L 14.12795,9.8857518 20.390275,3.6213025 20.632688,3.3788899 h 0.05316 V 3.6213025 12.08873 h 1.08873 V 2.29016 H 21.721439 20.685869 20.181906 1.5926928 1.0887299 Z m 1.0887299,1.0887299 h 0.05316 L 1.3843032,3.6213025 7.6466268,9.8857518 1.0887299,16.443649 V 12.08873 3.6213025 Z m 1.5926929,0 H 19.093176 L 10.887299,11.584766 Z M 18.189445,12.08873 17.41968,12.858496 19.916103,15.35492 h -4.673884 v 1.088729 h 4.673884 L 17.41968,18.940073 18.189445,19.70984 21.7746,16.124685 22,15.899285 21.7746,15.673884 Z"
+     class="ColorScheme-Text"
+     id="path4" />
+</svg>

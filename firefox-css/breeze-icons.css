@@ -1,0 +1,120 @@
+#OtherBookmarks .toolbarbutton-icon {
+	list-style-image: url("icons/document-open-folder.svg") !important;
+}
+#forward-button .toolbarbutton-icon {
+	list-style-image: url("icons/go-next.svg") !important;
+}
+#back-button .toolbarbutton-icon {
+	list-style-image: url("icons/go-previous.svg") !important;
+}
+#reload-button .toolbarbutton-icon {
+	list-style-image: url("icons/view-refresh.svg") !important;
+}
+#stop-button .toolbarbutton-icon {
+	list-style-image: url("icons/process-stop.svg") !important;
+}
+#home-button{
+	list-style-image: url("icons/go-home.svg") !important;
+}
+#bookmarks-menu-button{
+	list-style-image: url("./icons/bookmarks.png") !important;
+}
+#PanelUI-menu-button {
+	list-style-image: url("icons/application-menu.png") !important;
+}
+#history-panelmenu { 
+	list-style-image: url("./icons/history.png") !important;
+}
+#find-button{
+	list-style-image: url("./icons/find.png") !important;
+}
+#open-file-button {
+	list-style-image: url("./icons/document-open-folder.png") !important;
+}
+#save-page-button {
+	list-style-image: url("./icons/document-save.png") !important;
+}
+#sidebar-button {
+	list-style-image: url("./icons/view-split-effect.png") !important;
+}
+#add-ons-button{
+	list-style-image: url("./icons/plugins.png") !important;
+}
+#zoom-out-button{
+	list-style-image: url("./icons/zoom-out.png") !important;
+}
+#zoom-in-button{
+	list-style-image: url("./icons/zoom-in.png") !important;
+}
+#copy-button{
+	list-style-image: url("./icons/edit-copy.png") !important;
+}
+#paste-button{
+	list-style-image: url("./icons/edit-paste.png") !important;
+}
+#cut-button{
+	list-style-image: url("./icons/edit-cut.png") !important;
+}
+#characterencoding-button {
+	list-style-image: url("./icons/character-set.png") !important;
+}
+#library-button{
+	list-style-image: url("./icons/view-calendar-tasks.png") !important;
+}
+#email-link-button{
+	list-style-image: url("./icons/mail-mark-unread.png") !important;
+}
+#sync-button{
+	list-style-image: url("./icons/state-sync.png") !important;
+}
+#preferences-button{
+	list-style-image: url("./icons/configure.png") !important;
+}
+#panic-button{
+	list-style-image: url("./icons/edit-clear-history.png") !important;
+}
+#privatebrowsing-button{
+	list-style-image: url("./icons/user-group-delete.png") !important;
+}
+#developer-button{
+	list-style-image: url("./icons/tools-report-bug.png") !important;
+}
+#print-button{
+	list-style-image: url("./icons/document-print.png") !important;
+}
+#new-window-button{
+	list-style-image: url("./icons/window-new.png") !important;
+}
+#fullscreen-button{
+	list-style-image: url("./icons/view-fullscreen.png") !important;
+}
+#unified-extensions-button .toolbarbutton-icon {
+	list-style-image: url("icons/plugins.svg") !important;
+}
+#identity-icon{
+	list-style-image: url("icons/lock.svg") !important;
+}
+#tracking-protection-icon {
+	list-style-image: url("icons/security-high.svg") !important;
+}
+#PlacesChevron .toolbarbutton-icon {
+	list-style-image: url("icons/go-next-skip.svg") !important;
+}
+#downloads-indicator-icon {
+	list-style-image: url("icons/edit-download.png") !important;
+}
+#alltabs-button .toolbarbutton-icon {
+	list-style-image: url("icons/go-down.png") !important;
+}
+#identity-box[pageproxystate="valid"].extensionPage #identity-icon {
+	list-style-image: url("icons/plugins.svg") !important;
+}
+#pageAction-panel-bookmark, #star-button {
+	list-style-image: url("icons/rating-unrated.svg") !important;
+}
+#pageAction-panel-bookmark[starred], #star-button[starred] {
+	list-style-image: url("icons/rating.svg") !important;
+}
+.unified-extensions-item-menu-button{
+	list-style-image: url("icons/configure.svg") !important;
+}

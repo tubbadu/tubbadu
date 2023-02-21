@@ -1,0 +1,73 @@
+/* removes vertical separator from left toolbar buttons and tab list*/
+#tabbrowser-tabs{
+	border-left: none !important;
+}
+/* set tabs appearence */
+.tab-background {
+	border-radius: 3px !important;
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+	outline: none !important; /* remove blue border */
+	height: 30px !important; /* keep for after, it currently has no effect */
+	box-shadow: none !important;
+}
+
+/* draws grey border on the active tab, and a lightblue border on top of it */
+.tab-background[selected] {
+	border-left: solid 1px #4b5757;
+	border-right: solid 1px #4b5757;
+	border-top: solid 3px var(--focus-outline-color) !important; /* draws blue line on top */	
+	border-bottom: none !important;
+}
+
+/* Remove the gap between the active tab and the toolbar */
+#tabbrowser-tabs {
+	margin-bottom: -3px !important;
+}
+
+/*removes the space between the outline and the border */
+#urlbar-background {
+	box-shadow: none !important;
+	outline-width: 1px !important;
+	border: solid 1px #2A2E32 !important;
+}
+
+/* remove gap between active tabs and nav bar */
+#nav-bar{
+	border-top: solid 1px #5f6265 !important;
+	margin-top: -2px !important;
+	box-shadow: none !important;
+}
+
+/* remove black line below the toolbar */
+#navigator-toolbox, #PersonalToolbar{
+	border-bottom: none !important;
+}
+
+
+/* changes close tab icon */
+.tabbrowser-tab .tab-close-button {
+	list-style-image: url("window/close.svg") !important;
+	background-color: transparent !important;
+	width: 30px !important;
+	height: 30px !important;
+	background-size: 100% 100% !important;
+	display: none !important;
+}
+.tabbrowser-tab .tab-close-button:hover {
+	list-style-image: url("window/close-hover.svg") !important;
+}
+/* shows close tab button only when hovering the tab */
+.tabbrowser-tab:hover .close-icon {
+	display: block !important;
+}
+
+/* avoid topbar resizing when drag and dropping tabs to reorder*/
+#tabbrowser-tabs{
+	height: 44px !important;
+}
+
+/* moves the new tab button upper */
+#tabs-newtab-button .toolbarbutton-icon {
+	margin-bottom: 3px !important;
+}
