@@ -1,6 +1,7 @@
 /* set size for icons with unspecified height: not !important to not override other icons*/
 /* this is needed to display certain SVG icons */
 .toolbarbutton-icon {
+	width: 16px; 
 	height: 16px;
 }
 
@@ -23,76 +24,76 @@
 	list-style-image: url("icons/go-home.svg") !important;
 }
 #bookmarks-menu-button{
-	list-style-image: url("./icons/bookmarks.svg") !important;
+	list-style-image: url("./icons/bookmarks.png") !important;
 }
 #PanelUI-menu-button {
-	list-style-image: url("icons/application-menu.svg") !important;
+	list-style-image: url("icons/application-menu.png") !important;
 }
 #history-panelmenu { 
-	list-style-image: url("./icons/history.svg") !important;
+	list-style-image: url("./icons/history.png") !important;
 }
 #find-button{
-	list-style-image: url("./icons/find.svg") !important;
+	list-style-image: url("./icons/find.png") !important;
 }
 #open-file-button {
-	list-style-image: url("./icons/document-open-folder.svg") !important;
+	list-style-image: url("./icons/document-open-folder.png") !important;
 }
 #save-page-button {
-	list-style-image: url("./icons/document-save.svg") !important;
+	list-style-image: url("./icons/document-save.png") !important;
 }
 #sidebar-button {
-	list-style-image: url("./icons/view-split-effect.svg") !important;
+	list-style-image: url("./icons/view-split-effect.png") !important;
 }
 #add-ons-button{
-	list-style-image: url("./icons/plugins.svg") !important;
+	list-style-image: url("./icons/plugins.png") !important;
 }
 #zoom-out-button{
-	list-style-image: url("./icons/zoom-out.svg") !important;
+	list-style-image: url("./icons/zoom-out.png") !important;
 }
 #zoom-in-button{
-	list-style-image: url("./icons/zoom-in.svg") !important;
+	list-style-image: url("./icons/zoom-in.png") !important;
 }
 #copy-button{
-	list-style-image: url("./icons/edit-copy.svg") !important;
+	list-style-image: url("./icons/edit-copy.png") !important;
 }
 #paste-button{
-	list-style-image: url("./icons/edit-paste.svg") !important;
+	list-style-image: url("./icons/edit-paste.png") !important;
 }
 #cut-button{
-	list-style-image: url("./icons/edit-cut.svg") !important;
+	list-style-image: url("./icons/edit-cut.png") !important;
 }
 #characterencoding-button {
-	list-style-image: url("./icons/character-set.svg") !important;
+	list-style-image: url("./icons/character-set.png") !important;
 }
 #library-button{
-	list-style-image: url("./icons/view-calendar-tasks.svg") !important;
+	list-style-image: url("./icons/view-calendar-tasks.png") !important;
 }
 #email-link-button{
-	list-style-image: url("./icons/mail-mark-unread.svg") !important;
+	list-style-image: url("./icons/mail-mark-unread.png") !important;
 }
 #sync-button{
-	list-style-image: url("./icons/state-sync.svg") !important;
+	list-style-image: url("./icons/state-sync.png") !important;
 }
 #preferences-button{
-	list-style-image: url("./icons/configure.svg") !important;
+	list-style-image: url("./icons/configure.png") !important;
 }
 #panic-button{
-	list-style-image: url("./icons/edit-clear-history.svg") !important;
+	list-style-image: url("./icons/edit-clear-history.png") !important;
 }
 #privatebrowsing-button{
-	list-style-image: url("./icons/user-group-delete.svg") !important;
+	list-style-image: url("./icons/user-group-delete.png") !important;
 }
 #developer-button{
-	list-style-image: url("./icons/tools-report-bug.svg") !important;
+	list-style-image: url("./icons/tools-report-bug.png") !important;
 }
 #print-button{
-	list-style-image: url("./icons/document-print.svg") !important;
+	list-style-image: url("./icons/document-print.png") !important;
 }
 #new-window-button{
-	list-style-image: url("./icons/window-new.svg") !important;
+	list-style-image: url("./icons/window-new.png") !important;
 }
 #fullscreen-button{
-	list-style-image: url("./icons/view-fullscreen.svg") !important;
+	list-style-image: url("./icons/view-fullscreen.png") !important;
 }
 #unified-extensions-button .toolbarbutton-icon {
 	list-style-image: url("icons/plugins.svg") !important;
@@ -107,10 +108,10 @@
 	list-style-image: url("icons/go-next-skip.svg") !important;
 }
 #downloads-indicator-icon {
-	list-style-image: url("icons/edit-download.svg") !important;
+	list-style-image: url("icons/edit-download.png") !important;
 }
 #alltabs-button .toolbarbutton-icon {
-	list-style-image: url("icons/go-down.svg") !important;
+	list-style-image: url("icons/go-down.png") !important;
 }
 #identity-box[pageproxystate="valid"].extensionPage #identity-icon {
 	list-style-image: url("icons/plugins.svg") !important;
