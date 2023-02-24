@@ -25,4 +25,10 @@ def getMail(username, password):
 	return unread_count
 
 
-print(getMail("tubbadu@gmail.com", "cbebmtimyehtejlk") + getMail("ale.ribau@gmail.com", "qzwcfvkweuqgddef"))
+unread = getMail("tubbadu@gmail.com", "cbebmtimyehtejlk") + getMail("ale.ribau@gmail.com", "qzwcfvkweuqgddef")
+icon = "mail-mark-unread-new" if (unread > 0) else "mail-mark-unread"
+tooltip = str(unread) + " unread mail" + ("s" if unread != 1 else "")
+status = "active" if (unread > 0) else "passive"
+print("{PlasmoidIconStart}" + icon + "{PlasmoidIconEnd}")
+print("{PlasmoidTooltipStart}" + tooltip + "{PlasmoidTooltipEnd}")
+print("{PlasmoidStatusStart}" + status + "{PlasmoidStatusEnd}")
