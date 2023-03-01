@@ -72,12 +72,16 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git notify)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-
+zstyle ':notify:*' command-complete-timeout 3
+zstyle ':notify:*' error-title "Command failed (#{time_elapsed})"
+zstyle ':notify:*' success-title "Command finished (#{time_elapsed})"
+zstyle ':notify:*' error-icon "emblem-error"
+zstyle ':notify:*' success-icon "emblem-success"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
