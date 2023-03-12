@@ -43,8 +43,11 @@ else
 	elif [[ $1 == "auto" ]]; then
 		echo "auto hotspot"
 		ETH_STATUS=$(ethtool enp1s0 | grep "Link detected:" | awk '{print $3}')
-		echo $ETH_STATUS
-		if [[ $ETH_STATUS == "no" ]]; then
+		WIFI_STATUS=$(nmcli radio | awk '{print $2}')
+		echo "$ETH_STATUS"
+		if [[ $WIFI_STATUS == *"disabled"* ]]; then
+			echo "wifi disabled. quitting"
+		elif [[ $ETH_STATUS == "no" ]]; then
 			echo "Ethernet cable not connected: turning off hotspot"
 			$0 off
 		elif [[ $ETH_STATUS == "yes" ]]; then
