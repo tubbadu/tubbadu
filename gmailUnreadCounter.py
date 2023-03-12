@@ -2,6 +2,11 @@
 
 import imaplib
 
+def getPassword(username):
+	import subprocess
+	wallet = subprocess.run('qdbus org.kde.kwalletd5 /modules/kwalletd5 org.kde.KWallet.open kdewallet 0 kdewallet'.split(), stdout=subprocess.PIPE).stdout.decode('utf-8').strip()
+	return subprocess.run((f'qdbus org.kde.kwalletd5 /modules/kwalletd5 readPassword {wallet} gmailAppPasswords {username} Nextcloud').split(), stdout=subprocess.PIPE).stdout.decode('utf-8').strip()
+
 def getMail(username, password):
 	# set up connection to Gmail server
 	mail = imaplib.IMAP4_SSL('imap.gmail.com')
@@ -25,7 +30,7 @@ def getMail(username, password):
 	return unread_count
 
 
-unread = getMail("tubbadu@gmail.com", "PASSWORDHERE") + getMail("ale.ribau@gmail.com", "PASSWORDHERE")
+unread = getMail("tubbadu@gmail.com", getPassword("tubbadu@gmail.com")) + getMail("ale.ribau@gmail.com", getPassword("ale.ribau@gmail.com"))
 icon = "mail-mark-unread-new" if (unread > 0) else "mail-mark-unread"
 tooltip = str(unread) + " unread mail" + ("s" if unread != 1 else "")
 status = "active" if (unread > 0) else "passive"

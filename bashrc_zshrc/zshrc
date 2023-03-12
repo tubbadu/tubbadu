@@ -82,6 +82,8 @@ zstyle ':notify:*' error-title "Command failed (#{time_elapsed})"
 zstyle ':notify:*' success-title "Command finished (#{time_elapsed})"
 zstyle ':notify:*' error-icon "emblem-error"
 zstyle ':notify:*' success-icon "emblem-success"
+zstyle ':notify:*' expire-time 5000
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -120,3 +122,5 @@ export GTK_USE_PORTAL=1
 #allow kwin script debugging
 export QT_LOGGING_RULES='js=true; kwin_scripting=true; kwin*=true'
 
+
+export QSYS_ROOTDIR="/home/tubbadu/Portable/intelFPGA_lite/21.1/quartus/sopc_builder/bin"
