@@ -10,7 +10,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="agnoster"
+#ZSH_THEME="agnoster"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -111,10 +111,11 @@ source ~/.aliases
 source ~/.path
 #source ~/git/emsdk/emsdk_env.sh
 
-TRIANGLE=$'\ue0b0'
-COLOR_1="#3DAEE9" #1BA58A
-COLOR_2="white"
-PROMPT="%K{$COLOR_1} %n@%M%F{$COLOR_1}%K{$COLOR_2}$TRIANGLE%F{$COLOR_1} %~%f%k$TRIANGLE " #%K{#1BA58A}%F{black}$TRIANGLE
+TRIANGLE=$'\uE0B0'
+COLOR_1="#089B89" #1BA58A
+COLOR_2="#FCFCFC"
+COLOR_3="#3B4045"
+PROMPT="%K{$COLOR_1} %n@%M%F{$COLOR_1}%K{$COLOR_2}$TRIANGLE%F{$COLOR_1} %~%F{$COLOR_2}%K{$COLOR_3}$TRIANGLE%f%k " #%K{#1BA58A}%F{black}$TRIANGLE
 
 #force GTK apps to use Qt file picker
 export GTK_USE_PORTAL=1
