@@ -1,0 +1,11 @@
+copyq toggle -> ctrl+alt+v
+/home/tubbadu/code/SpeChar/spechar.sh -> meta+ins
+spectacle -rcb #spectacle -r -b -c -n -o /home/tubbadu/Immagini/Screenshots/temp.png && dunstify -a "Spectacle" -I /home/tubbadu/Immagini/Screenshots/temp.png "Regione rettangolare catturata" "Una schermata è stata salvata negli appunti." -> meta+f10
+ktoggle -c typora -n typora -p /home/tubbadu/Portable/Typora-linux-x64/Typora --standalone -> f1
+ktoggle -c yakuake -n yakuake -p yakuake --standalone -> f12
+ktoggle --minimize-all -> meta+q
+ktoggle -c telegramdesktop -n telegram-desktop -p telegram-desktop -> meta+t
+ktoggle -c qalculate-gtk -n qalculate-gtk -p qalculate-gtk --standalone -> calc
+ktoggle -c whatsappweb-nativefier-d40211 -n whatsappweb-nativefier-d40211 -p /home/tubbadu/.bin/whatsapp -i whatsapp  -> meta+w
+spectacle -b -o "$(xdg-user-dir PICTURES)/Screenshots/$(date +"screenshot_%Y.%m.%d_%H.%M.%S.png")" -> f10
+/home/tubbadu/code/Kirigami/tubbadu-logout-greeter/build/bin/tubbadu-logout-greeter -> poweroff
