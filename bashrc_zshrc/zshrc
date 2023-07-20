@@ -114,7 +114,7 @@ source ~/.path
 TRIANGLE=$'\uE0B0'
 COLOR_1="#089B89"
 COLOR_2="#FCFCFC"
-COLOR_3="#3B4045"
+COLOR_3="#232627"
 PROMPT="%K{$COLOR_1}%F{$COLOR_3}$TRIANGLE%F{$COLOR_2} %n@%M%F{$COLOR_1}%K{$COLOR_2}$TRIANGLE%F{$COLOR_1} %~%F{$COLOR_2}%K{$COLOR_3}$TRIANGLE%f%k "
 
 #force GTK apps to use Qt file picker

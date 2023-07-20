@@ -232,7 +232,7 @@ xkb_symbols "ibm" {
     key <TLDE>	{ [ backslash,      bar                                                 ] };
 
     key <AE01>	{ [exclam,          1,              onesuperior                         ] };
-    key <AE02>	{ [quotedbl,        2,              twosuperior,        onehalf         ] }; //change onehalf with pedex
+    key <AE02>	{ [quotedbl,        2,              twosuperior,        onehalf         ] }; //TODO change onehalf with pedex
     key <AE03>	{ [sterling,        3,              threesuperior,      onethird        ] };
     key <AE04>	{ [dollar,          4,              foursuperior,       onequarter      ] };
     key <AE05>	{ [percent,         5,              fivesuperior,       onefifth        ] };
@@ -260,7 +260,16 @@ xkb_symbols "ibm" {
     key <CAPS> { [End,              End,            Home                                ] };
     key <NMLK> { [Caps_Lock                                                             ] };
     key <KPDL> { [KP_Decimal,       KP_Decimal                                          ] };
-    
+    key <KP0>  { [0                                                                     ] };
+    key <KP1>  { [1                                                                     ] };
+    key <KP2>  { [2                                                                     ] };
+    key <KP3>  { [3                                                                     ] };
+    key <KP4>  { [4                                                                     ] };
+    key <KP5>  { [5                                                                     ] };
+    key <KP6>  { [6                                                                     ] };
+    key <KP7>  { [7                                                                     ] };
+    key <KP8>  { [8                                                                     ] };
+    key <KP9>  { [9                                                                     ] };
 };
 
 
