@@ -125,3 +125,9 @@ export QT_LOGGING_RULES='js=true; kwin_scripting=true; kwin*=true'
 
 
 export QSYS_ROOTDIR="/home/tubbadu/Portable/intelFPGA_lite/21.1/quartus/sopc_builder/bin"
+
+if [ "$XDG_SESSION_TYPE" = "wayland" ]; then
+    export MOZ_ENABLE_WAYLAND=1
+fi
+
+

@@ -16,3 +16,12 @@ export PATH="$PATH:$ANT_HOME/bin"
 export PATH="$PATH:/home/tubbadu/.android-utility/gradle-7.4.2/bin/"
 export PATH="$PATH:/home/tubbadu/.android-utility/jdk1.8.0_202/bin/"
 ##### END_CORDOVA #####
+
+
+
+#### (perhaps) for QtCreator #####
+
+export JAVA_HOME=/usr/lib/jvm/java-11-openjdk/
+export PATH="$PATH:/home/tubbadu/.android-utility/Sdk/cmdline-tools/latest/bin/"
+
+#### end qtcreator ####
